@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lightSaberApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DS4-Xz-TBU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6gg-nJ-DV7">
+                                <rect key="frame" x="16" y="537" width="343" height="110"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eec-ss-ugD">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="52.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE2-mA-IFY">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="52.5"/>
+                                                <color key="backgroundColor" red="0.76003886009999999" green="0.6250672934" blue="0.052431407319999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Mace Windu">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="lightSaberChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XZy-Ni-hTb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMY-Lw-rgW">
+                                                <rect key="frame" x="174" y="0.0" width="169" height="52.5"/>
+                                                <color key="backgroundColor" red="0.76003886009999999" green="0.6250672934" blue="0.052431407319999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Darth Vader">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="lightSaberChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WPU-yH-ci7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eO8-Wu-wtR">
+                                        <rect key="frame" x="0.0" y="57.5" width="343" height="52.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txR-cE-cUq">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="52.5"/>
+                                                <color key="backgroundColor" red="0.76003886009999999" green="0.6250672934" blue="0.052431407319999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Luke Skywalker">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="lightSaberChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XqI-OO-XFy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nQ-Pt-UfI">
+                                                <rect key="frame" x="174" y="0.0" width="169" height="52.5"/>
+                                                <color key="backgroundColor" red="0.76003886009999999" green="0.6250672934" blue="0.052431407319999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Kylo Ren">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="lightSaberChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oWB-Da-o8M"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="v2c-kh-lXL"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fVO-3F-dsz">
+                                <rect key="frame" x="132.5" y="309" width="110" height="220"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BXe-XC-Aie">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="220"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="220" id="HIU-kW-NGU"/>
+                                            <constraint firstAttribute="width" constant="110" id="lMd-QN-ufG"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="NOu-9E-OCe" appends="YES" id="1nL-oE-CKS"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="BXe-XC-Aie" firstAttribute="centerX" secondItem="fVO-3F-dsz" secondAttribute="centerX" id="JxY-E1-pDC"/>
+                                    <constraint firstAttribute="width" constant="110" id="aEY-wn-nZj"/>
+                                    <constraint firstAttribute="height" constant="220" id="hdX-PR-pik"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rXl-uJ-9pW">
+                                <rect key="frame" x="157" y="20" width="60" height="311"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIk-Ni-Pw0">
+                                <rect key="frame" x="67" y="-8" width="240" height="339"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j3r-92-LpG">
+                                <rect key="frame" x="0.0" y="269" width="191" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="3Hs-Pd-MmK"/>
+                                    <constraint firstAttribute="height" constant="128" id="yTW-ZR-QdQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NXp-0q-cXU">
+                                <rect key="frame" x="184" y="269" width="191" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="n9b-2t-NZ5"/>
+                                    <constraint firstAttribute="height" constant="128" id="uEk-eg-c2O"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gib-m1-Ree">
+                                <rect key="frame" x="88" y="296" width="200" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="xpX-42-zCQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DS4-Xz-TBU" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DWQ-vQ-CQU"/>
+                            <constraint firstItem="6gg-nJ-DV7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MTM-aF-7tl"/>
+                            <constraint firstItem="j3r-92-LpG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Md9-dg-Hb2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6gg-nJ-DV7" secondAttribute="bottom" constant="20" id="P2L-G1-JTA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6gg-nJ-DV7" secondAttribute="trailing" constant="16" id="PZE-dU-ozq"/>
+                            <constraint firstItem="6gg-nJ-DV7" firstAttribute="top" secondItem="NXp-0q-cXU" secondAttribute="bottom" constant="140" id="TxS-aX-X9P"/>
+                            <constraint firstItem="6gg-nJ-DV7" firstAttribute="top" secondItem="fVO-3F-dsz" secondAttribute="bottom" constant="8" id="Wan-ib-86e"/>
+                            <constraint firstItem="DS4-Xz-TBU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Y0H-xT-ptN"/>
+                            <constraint firstItem="NXp-0q-cXU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gsm-02-xkE"/>
+                            <constraint firstItem="6gg-nJ-DV7" firstAttribute="top" secondItem="j3r-92-LpG" secondAttribute="bottom" constant="140" id="mjx-co-8dD"/>
+                            <constraint firstItem="fVO-3F-dsz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n1y-1M-tGg"/>
+                            <constraint firstItem="6gg-nJ-DV7" firstAttribute="top" secondItem="gib-m1-Ree" secondAttribute="bottom" constant="175" id="ouZ-KF-YTD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gib-m1-Ree" secondAttribute="trailing" constant="87" id="u4J-42-5XP"/>
+                            <constraint firstItem="DS4-Xz-TBU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wsP-he-59c"/>
+                            <constraint firstItem="DS4-Xz-TBU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wz3-sd-RvI"/>
+                            <constraint firstItem="gib-m1-Ree" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="y86-qZ-Eb5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundFlashColor" destination="DS4-Xz-TBU" id="z8W-k0-j0H"/>
+                        <outlet property="bladeCover" destination="oIk-Ni-Pw0" id="wl1-63-1kE"/>
+                        <outlet property="bladeImage" destination="rXl-uJ-9pW" id="OHp-Tr-Baz"/>
+                        <outlet property="handleImage" destination="BXe-XC-Aie" id="lCU-el-hpx"/>
+                        <outlet property="kyloBladeImage" destination="gib-m1-Ree" id="yWn-JR-PeP"/>
+                        <outlet property="kyloRenOutlet" destination="9nQ-Pt-UfI" id="gMd-RC-jUq"/>
+                        <outlet property="leftBladeCover" destination="j3r-92-LpG" id="G9x-mO-hkw"/>
+                        <outlet property="lukeSkywalkerOutlet" destination="txR-cE-cUq" id="ql4-6M-upa"/>
+                        <outlet property="maceWinduOutlet" destination="ZE2-mA-IFY" id="Q4O-7u-jl7"/>
+                        <outlet property="obiWanKenobiOutlet" destination="YMY-Lw-rgW" id="vnL-4Y-nDe"/>
+                        <outlet property="rightBladeCover" destination="NXp-0q-cXU" id="TXD-nz-lBE"/>
+                        <outletCollection property="allJediButtons" destination="9nQ-Pt-UfI" collectionClass="NSMutableArray" id="qLo-uQ-7FE"/>
+                        <outletCollection property="allJediButtons" destination="txR-cE-cUq" collectionClass="NSMutableArray" id="luz-Oj-uKl"/>
+                        <outletCollection property="allJediButtons" destination="YMY-Lw-rgW" collectionClass="NSMutableArray" id="6zY-iF-JLZ"/>
+                        <outletCollection property="allJediButtons" destination="ZE2-mA-IFY" collectionClass="NSMutableArray" id="kq7-WN-seL"/>
+                        <outletCollection property="kyloBladeCovers" destination="NXp-0q-cXU" collectionClass="NSMutableArray" id="6uS-RN-N5O"/>
+                        <outletCollection property="kyloBladeCovers" destination="j3r-92-LpG" collectionClass="NSMutableArray" id="0rH-ge-zzx"/>
+                        <outletCollection property="kyloBladeCovers" destination="gib-m1-Ree" collectionClass="NSMutableArray" id="jdE-E1-nQc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="NOu-9E-OCe">
+                    <connections>
+                        <action selector="lightSaberDidIgnite:" destination="BYZ-38-t0r" id="95m-Ep-wiu"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

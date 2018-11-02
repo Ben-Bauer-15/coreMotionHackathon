@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49563173218CDC5C00A74377 /* spin1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4956316F218CDC5B00A74377 /* spin1.mp3 */; };
+		49563174218CDC5C00A74377 /* spin3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49563170218CDC5C00A74377 /* spin3.mp3 */; };
+		49563175218CDC5C00A74377 /* spin4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49563171218CDC5C00A74377 /* spin4.mp3 */; };
+		49563176218CDC5C00A74377 /* spin2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49563172218CDC5C00A74377 /* spin2.mp3 */; };
+		7133E84E218C2DD00007C9FB /* ignite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E84C218C2DCF0007C9FB /* ignite.mp3 */; };
+		7133E84F218C2DD00007C9FB /* off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E84D218C2DCF0007C9FB /* off.mp3 */; };
+		7133E851218C2E900007C9FB /* hum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E850218C2E900007C9FB /* hum.mp3 */; };
+		7133E856218C2E9D0007C9FB /* swing1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E852218C2E9D0007C9FB /* swing1.mp3 */; };
+		7133E857218C2E9D0007C9FB /* swing3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E853218C2E9D0007C9FB /* swing3.mp3 */; };
+		7133E858218C2E9D0007C9FB /* swing2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E854218C2E9D0007C9FB /* swing2.mp3 */; };
+		7133E859218C2E9D0007C9FB /* swing4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E855218C2E9D0007C9FB /* swing4.mp3 */; };
+		7133E85F218C2EA90007C9FB /* strike2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E85A218C2EA80007C9FB /* strike2.mp3 */; };
+		7133E860218C2EA90007C9FB /* strike5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E85B218C2EA80007C9FB /* strike5.mp3 */; };
+		7133E861218C2EA90007C9FB /* strike3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E85C218C2EA80007C9FB /* strike3.mp3 */; };
+		7133E862218C2EA90007C9FB /* strike1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E85D218C2EA80007C9FB /* strike1.mp3 */; };
+		7133E863218C2EA90007C9FB /* strike4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7133E85E218C2EA90007C9FB /* strike4.mp3 */; };
+		7133E866218C2F370007C9FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7133E865218C2F370007C9FB /* AVFoundation.framework */; };
+		800D7930218BAD810090A1BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D792F218BAD810090A1BA /* AppDelegate.swift */; };
+		800D7932218BAD810090A1BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D7931218BAD810090A1BA /* ViewController.swift */; };
+		800D7935218BAD810090A1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800D7933218BAD810090A1BA /* Main.storyboard */; };
+		800D7937218BAD830090A1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800D7936218BAD830090A1BA /* Assets.xcassets */; };
+		800D793A218BAD830090A1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800D7938218BAD830090A1BA /* LaunchScreen.storyboard */; };
+		800D7945218BAD830090A1BA /* lightSaberAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D7944218BAD830090A1BA /* lightSaberAppTests.swift */; };
+		800D7950218BAD830090A1BA /* lightSaberAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D794F218BAD830090A1BA /* lightSaberAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800D7941218BAD830090A1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800D7924218BAD810090A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800D792B218BAD810090A1BA;
+			remoteInfo = lightSaberApp;
+		};
+		800D794C218BAD830090A1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800D7924218BAD810090A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800D792B218BAD810090A1BA;
+			remoteInfo = lightSaberApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4956316F218CDC5B00A74377 /* spin1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spin1.mp3; path = ../../../swift/lightSaberApp/lightSaberApp/spin1.mp3; sourceTree = "<group>"; };
+		49563170218CDC5C00A74377 /* spin3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spin3.mp3; path = ../../../swift/lightSaberApp/lightSaberApp/spin3.mp3; sourceTree = "<group>"; };
+		49563171218CDC5C00A74377 /* spin4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spin4.mp3; path = ../../../swift/lightSaberApp/lightSaberApp/spin4.mp3; sourceTree = "<group>"; };
+		49563172218CDC5C00A74377 /* spin2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spin2.mp3; path = ../../../swift/lightSaberApp/lightSaberApp/spin2.mp3; sourceTree = "<group>"; };
+		7133E84C218C2DCF0007C9FB /* ignite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ignite.mp3; sourceTree = "<group>"; };
+		7133E84D218C2DCF0007C9FB /* off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = off.mp3; sourceTree = "<group>"; };
+		7133E850218C2E900007C9FB /* hum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hum.mp3; sourceTree = "<group>"; };
+		7133E852218C2E9D0007C9FB /* swing1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swing1.mp3; sourceTree = "<group>"; };
+		7133E853218C2E9D0007C9FB /* swing3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swing3.mp3; sourceTree = "<group>"; };
+		7133E854218C2E9D0007C9FB /* swing2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swing2.mp3; sourceTree = "<group>"; };
+		7133E855218C2E9D0007C9FB /* swing4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swing4.mp3; sourceTree = "<group>"; };
+		7133E85A218C2EA80007C9FB /* strike2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strike2.mp3; sourceTree = "<group>"; };
+		7133E85B218C2EA80007C9FB /* strike5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strike5.mp3; sourceTree = "<group>"; };
+		7133E85C218C2EA80007C9FB /* strike3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strike3.mp3; sourceTree = "<group>"; };
+		7133E85D218C2EA80007C9FB /* strike1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strike1.mp3; sourceTree = "<group>"; };
+		7133E85E218C2EA90007C9FB /* strike4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strike4.mp3; sourceTree = "<group>"; };
+		7133E865218C2F370007C9FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		800D792C218BAD810090A1BA /* lightSaberApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightSaberApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800D792F218BAD810090A1BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		800D7931218BAD810090A1BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		800D7934218BAD810090A1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		800D7936218BAD830090A1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800D7939218BAD830090A1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800D793B218BAD830090A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800D7940218BAD830090A1BA /* lightSaberAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightSaberAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800D7944218BAD830090A1BA /* lightSaberAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightSaberAppTests.swift; sourceTree = "<group>"; };
+		800D7946218BAD830090A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800D794B218BAD830090A1BA /* lightSaberAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightSaberAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800D794F218BAD830090A1BA /* lightSaberAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightSaberAppUITests.swift; sourceTree = "<group>"; };
+		800D7951218BAD830090A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800D7929218BAD810090A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7133E866218C2F370007C9FB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800D793D218BAD830090A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800D7948218BAD830090A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7133E864218C2F370007C9FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7133E865218C2F370007C9FB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		800D7923218BAD810090A1BA = {
+			isa = PBXGroup;
+			children = (
+				800D792E218BAD810090A1BA /* lightSaberApp */,
+				800D7943218BAD830090A1BA /* lightSaberAppTests */,
+				800D794E218BAD830090A1BA /* lightSaberAppUITests */,
+				800D792D218BAD810090A1BA /* Products */,
+				7133E864218C2F370007C9FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		800D792D218BAD810090A1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800D792C218BAD810090A1BA /* lightSaberApp.app */,
+				800D7940218BAD830090A1BA /* lightSaberAppTests.xctest */,
+				800D794B218BAD830090A1BA /* lightSaberAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800D792E218BAD810090A1BA /* lightSaberApp */ = {
+			isa = PBXGroup;
+			children = (
+				7133E84C218C2DCF0007C9FB /* ignite.mp3 */,
+				7133E850218C2E900007C9FB /* hum.mp3 */,
+				7133E852218C2E9D0007C9FB /* swing1.mp3 */,
+				7133E854218C2E9D0007C9FB /* swing2.mp3 */,
+				7133E853218C2E9D0007C9FB /* swing3.mp3 */,
+				7133E855218C2E9D0007C9FB /* swing4.mp3 */,
+				4956316F218CDC5B00A74377 /* spin1.mp3 */,
+				49563172218CDC5C00A74377 /* spin2.mp3 */,
+				49563170218CDC5C00A74377 /* spin3.mp3 */,
+				49563171218CDC5C00A74377 /* spin4.mp3 */,
+				7133E85D218C2EA80007C9FB /* strike1.mp3 */,
+				7133E85A218C2EA80007C9FB /* strike2.mp3 */,
+				7133E85C218C2EA80007C9FB /* strike3.mp3 */,
+				7133E85E218C2EA90007C9FB /* strike4.mp3 */,
+				7133E85B218C2EA80007C9FB /* strike5.mp3 */,
+				7133E84D218C2DCF0007C9FB /* off.mp3 */,
+				800D792F218BAD810090A1BA /* AppDelegate.swift */,
+				800D7931218BAD810090A1BA /* ViewController.swift */,
+				800D7933218BAD810090A1BA /* Main.storyboard */,
+				800D7936218BAD830090A1BA /* Assets.xcassets */,
+				800D7938218BAD830090A1BA /* LaunchScreen.storyboard */,
+				800D793B218BAD830090A1BA /* Info.plist */,
+			);
+			path = lightSaberApp;
+			sourceTree = "<group>";
+		};
+		800D7943218BAD830090A1BA /* lightSaberAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				800D7944218BAD830090A1BA /* lightSaberAppTests.swift */,
+				800D7946218BAD830090A1BA /* Info.plist */,
+			);
+			path = lightSaberAppTests;
+			sourceTree = "<group>";
+		};
+		800D794E218BAD830090A1BA /* lightSaberAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				800D794F218BAD830090A1BA /* lightSaberAppUITests.swift */,
+				800D7951218BAD830090A1BA /* Info.plist */,
+			);
+			path = lightSaberAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800D792B218BAD810090A1BA /* lightSaberApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800D7954218BAD830090A1BA /* Build configuration list for PBXNativeTarget "lightSaberApp" */;
+			buildPhases = (
+				800D7928218BAD810090A1BA /* Sources */,
+				800D7929218BAD810090A1BA /* Frameworks */,
+				800D792A218BAD810090A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lightSaberApp;
+			productName = lightSaberApp;
+			productReference = 800D792C218BAD810090A1BA /* lightSaberApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		800D793F218BAD830090A1BA /* lightSaberAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800D7957218BAD830090A1BA /* Build configuration list for PBXNativeTarget "lightSaberAppTests" */;
+			buildPhases = (
+				800D793C218BAD830090A1BA /* Sources */,
+				800D793D218BAD830090A1BA /* Frameworks */,
+				800D793E218BAD830090A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800D7942218BAD830090A1BA /* PBXTargetDependency */,
+			);
+			name = lightSaberAppTests;
+			productName = lightSaberAppTests;
+			productReference = 800D7940218BAD830090A1BA /* lightSaberAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		800D794A218BAD830090A1BA /* lightSaberAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800D795A218BAD830090A1BA /* Build configuration list for PBXNativeTarget "lightSaberAppUITests" */;
+			buildPhases = (
+				800D7947218BAD830090A1BA /* Sources */,
+				800D7948218BAD830090A1BA /* Frameworks */,
+				800D7949218BAD830090A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800D794D218BAD830090A1BA /* PBXTargetDependency */,
+			);
+			name = lightSaberAppUITests;
+			productName = lightSaberAppUITests;
+			productReference = 800D794B218BAD830090A1BA /* lightSaberAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800D7924218BAD810090A1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "team name: String";
+				TargetAttributes = {
+					800D792B218BAD810090A1BA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					800D793F218BAD830090A1BA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 800D792B218BAD810090A1BA;
+					};
+					800D794A218BAD830090A1BA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 800D792B218BAD810090A1BA;
+					};
+				};
+			};
+			buildConfigurationList = 800D7927218BAD810090A1BA /* Build configuration list for PBXProject "lightSaberApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800D7923218BAD810090A1BA;
+			productRefGroup = 800D792D218BAD810090A1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800D792B218BAD810090A1BA /* lightSaberApp */,
+				800D793F218BAD830090A1BA /* lightSaberAppTests */,
+				800D794A218BAD830090A1BA /* lightSaberAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800D792A218BAD810090A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7133E862218C2EA90007C9FB /* strike1.mp3 in Resources */,
+				49563175218CDC5C00A74377 /* spin4.mp3 in Resources */,
+				7133E859218C2E9D0007C9FB /* swing4.mp3 in Resources */,
+				49563173218CDC5C00A74377 /* spin1.mp3 in Resources */,
+				7133E861218C2EA90007C9FB /* strike3.mp3 in Resources */,
+				7133E84E218C2DD00007C9FB /* ignite.mp3 in Resources */,
+				49563176218CDC5C00A74377 /* spin2.mp3 in Resources */,
+				7133E84F218C2DD00007C9FB /* off.mp3 in Resources */,
+				800D793A218BAD830090A1BA /* LaunchScreen.storyboard in Resources */,
+				7133E857218C2E9D0007C9FB /* swing3.mp3 in Resources */,
+				7133E851218C2E900007C9FB /* hum.mp3 in Resources */,
+				800D7937218BAD830090A1BA /* Assets.xcassets in Resources */,
+				7133E856218C2E9D0007C9FB /* swing1.mp3 in Resources */,
+				7133E860218C2EA90007C9FB /* strike5.mp3 in Resources */,
+				7133E858218C2E9D0007C9FB /* swing2.mp3 in Resources */,
+				49563174218CDC5C00A74377 /* spin3.mp3 in Resources */,
+				800D7935218BAD810090A1BA /* Main.storyboard in Resources */,
+				7133E85F218C2EA90007C9FB /* strike2.mp3 in Resources */,
+				7133E863218C2EA90007C9FB /* strike4.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800D793E218BAD830090A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800D7949218BAD830090A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800D7928218BAD810090A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800D7932218BAD810090A1BA /* ViewController.swift in Sources */,
+				800D7930218BAD810090A1BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800D793C218BAD830090A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800D7945218BAD830090A1BA /* lightSaberAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800D7947218BAD830090A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800D7950218BAD830090A1BA /* lightSaberAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800D7942218BAD830090A1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800D792B218BAD810090A1BA /* lightSaberApp */;
+			targetProxy = 800D7941218BAD830090A1BA /* PBXContainerItemProxy */;
+		};
+		800D794D218BAD830090A1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800D792B218BAD810090A1BA /* lightSaberApp */;
+			targetProxy = 800D794C218BAD830090A1BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		800D7933218BAD810090A1BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800D7934218BAD810090A1BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		800D7938218BAD830090A1BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800D7939218BAD830090A1BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800D7952218BAD830090A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800D7953218BAD830090A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800D7955218BAD830090A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L3N5HVD5M;
+				INFOPLIST_FILE = lightSaberApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teamNameString.lightSaberApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800D7956218BAD830090A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L3N5HVD5M;
+				INFOPLIST_FILE = lightSaberApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teamNameString.lightSaberApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		800D7958218BAD830090A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lightSaberAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teamNameString.lightSaberAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightSaberApp.app/lightSaberApp";
+			};
+			name = Debug;
+		};
+		800D7959218BAD830090A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lightSaberAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teamNameString.lightSaberAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightSaberApp.app/lightSaberApp";
+			};
+			name = Release;
+		};
+		800D795B218BAD830090A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lightSaberAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teamNameString.lightSaberAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lightSaberApp;
+			};
+			name = Debug;
+		};
+		800D795C218BAD830090A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lightSaberAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teamNameString.lightSaberAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lightSaberApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800D7927218BAD810090A1BA /* Build configuration list for PBXProject "lightSaberApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800D7952218BAD830090A1BA /* Debug */,
+				800D7953218BAD830090A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800D7954218BAD830090A1BA /* Build configuration list for PBXNativeTarget "lightSaberApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800D7955218BAD830090A1BA /* Debug */,
+				800D7956218BAD830090A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800D7957218BAD830090A1BA /* Build configuration list for PBXNativeTarget "lightSaberAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800D7958218BAD830090A1BA /* Debug */,
+				800D7959218BAD830090A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800D795A218BAD830090A1BA /* Build configuration list for PBXNativeTarget "lightSaberAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800D795B218BAD830090A1BA /* Debug */,
+				800D795C218BAD830090A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 800D7924218BAD810090A1BA /* Project object */;
+}
